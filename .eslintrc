@@ -1,0 +1,28 @@
+{
+    "env": {
+        "browser": true,
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "GrandCentral": true,
+        "sce": true
+    },
+    "extends": "airbnb-base",
+    "plugins": [
+        "import"
+    ],
+    "rules": {
+        "global-require": 0,
+        "arrow-body-style": [0, "as-needed"],
+        "comma-dangle": 0,
+        "no-console": 0,
+        "max-len": 0,
+        "indent": ["error", 4],
+        "no-underscore-dangle": 0,
+        "import/no-unresolved": 0,
+        "no-useless-escape": 0,
+        "new-cap": 0,
+        "no-duplicate-imports": 0
+    }
+}

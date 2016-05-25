@@ -1,0 +1,9 @@
+
+**/dist
+**/node_modules
+**/tmp
+**/vendor
+**/app/fixtures
+**/app/mocks
+**/server
+ember-cli-build.js
