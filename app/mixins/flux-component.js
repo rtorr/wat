@@ -5,7 +5,7 @@ export default Ember.Mixin.create({
     init(...args) {
         this._super(args);
         if (!this.store) {
-            throw new Error('You must have a stores array property');
+            throw new Error('You must have a store property');
         }
         this.data = this.getStateFromStores();
         this.dispatcher = Welp.WelpDispatcher;
