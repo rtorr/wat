@@ -8,7 +8,7 @@ export default Ember.Component.extend(FluxComponent, {
         addOne() {
             return this.dispatcher.dispatch({
                 type: 'ADD_ONE',
-                data: this.get('data').count + 1
+                data: this.getStateFromStores().count + 1
             });
         }
     }
